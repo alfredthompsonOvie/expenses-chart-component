@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [repo link](https://your-solution-url.com)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Solution URL: [repo link](https://github.com/alfredthompsonOvie/expenses-chart-component)
+- Live Site URL: [live site](https://eivo-expenses-chart-component.netlify.app/)
 
 ## My process
 
