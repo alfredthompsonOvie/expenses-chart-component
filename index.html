@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/gsap.min.js"></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <section class="expenses__chart">
+      <section class="header">
+        <div class="balance">
+          <p>My balance</p>
+          <h1 class="title title--size">$921.48</h1>
+        </div>
+        <img src="images/logo.svg" alt="the site's logo" class="brand__logo">
+      </section>
+      <section class="expenses">
+        <h1 class="title title--size">Spending - Last 7 days</h1>
+        <div class="chart">
+          <div class="content">
+            <p class="amount"></p>
+            <div class="bar" data-dayOfWeek="mon"></div>
+            <p class="days"></p>
+          </div>
+          <div class="content">
+            <p class="amount"></p>
+            <div class="bar" data-dayOfWeek="tue"></div>
+            <p class="days"></p>
+          </div>
+          <div class="content">
+            <p class="amount"></p>
+            <div class="bar" data-dayOfWeek="wed"></div>
+            <p class="days"></p>
+          </div>
+          <div class="content">
+            <p class="amount"></p>
+            <div class="bar" data-dayOfWeek="thu"></div>
+            <p class="days"></p>
+          </div>
+          <div class="content">
+            <p class="amount"></p>
+            <div class="bar" data-dayOfWeek="fri"></div>
+            <p class="days"></p>
+          </div>
+          <div class="content">
+            <p class="amount"></p>
+            <div class="bar" data-dayOfWeek="sat"></div>
+            <p class="days"></p>
+          </div>
+          <div class="content">
+            <p class="amount"></p>
+            <div class="bar" data-dayOfWeek="sun"></div>
+            <p class="days"></p>
+          </div>
+        </div>
+        <div class="total__balance">
+          <div class="current__month">
+            <p>Total this month</p>
+            <h1 class="title title--size">$478.33</h1>
+          </div>
+          <div class="prev__month">
+            <h3 class="title">+2.4%</h3>
+            <p>from last month</p>
+          
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/alfredthompsonovie/" target="_blank">Alfred Thompson Ovie</a>.
+    </div>
+  </main>
+
+</body>
+</html>
